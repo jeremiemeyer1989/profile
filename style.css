@@ -1,0 +1,79 @@
+                                        body {
+                                            background-color: white
+                                        }
+                                        
+                                        h1 {
+                                            color: black;
+                                            font-size: 1em;
+                                            text-align: center;
+                                            font-style: Arial;
+                                        }
+                                        
+                                        .header2 {
+                                            color: black;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .header3 {
+                                            color: black(255, 0, 0);
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .container>div {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            font-size: 2em;
+                                            /*color: #ffeead;*/
+                                        }
+                                        
+                                        html,
+                                        body {
+                                            box-sizing: border-box;
+                                            background-color: #ffeead;
+                                            height: 100%;
+                                            padding: 40px;
+                                            margin: 0px;
+                                        }
+                                        
+                                        .container>div:nth-child(1n) {
+                                            background-color: #ffeead;
+                                        }
+                                        
+                                        .container>div:nth-child(3n) {
+                                            background-color: #ffeead;
+                                        }
+                                        
+                                        .container>div:nth-child(2n) {
+                                            background-color: #ffeead;
+                                        }
+                                        
+                                        .container>div:nth-child(4n) {
+                                            background-color: #ffeead;
+                                        }
+                                        
+                                        table,
+                                        th,
+                                        td {
+                                            border: 1px solid black;
+                                        }
+                                        
+                                        th {
+                                            text-align: left;
+                                        }
+                                        
+                                        td {
+                                            text-align: left;
+                                        }
+                                        
+                                        th,
+                                        td {
+                                            padding: 15px;
+                                            height: 0pt;
+                                        }
+                                        
+                                        table {
+                                            border-spacing: 10px;
+                                        }
